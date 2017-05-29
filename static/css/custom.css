@@ -2,6 +2,33 @@ body {
     padding-top: 70px;
 }
 
+.slide-item {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 360px;
+    min-height: 360px;
+}
+
+.test {
+    padding: 30px 5px;
+    background-image: url('../img/slide1.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+
+}
+
+.jumbo-bg {
+    padding: 0;
+    height: 500px;
+    background-image: url('../img/AK-FrontLeft.jpg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+}
+
 /*.owl-carousel .item-video {*/
     /*height: 250px;*/
 /*}*/
