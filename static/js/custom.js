@@ -28,9 +28,15 @@ $(function() {
 		$('.pop').on('click', function() {
 			$('.imagepreview').attr('src', $(this).find('img').attr('data-url'));
 			$('#imagemodal').modal('show');
+			return false;
 		});
+		$('.pop-link').on('click', function () {
+            $('.imagepreview').attr('src', $(this).attr('data-url'));
+            $('#imagemodal').modal('show');
+            return false;
+        })
 });
 
-window.addEventListener("hashchange", function () {
-    window.scrollTo(window.scrollX, window.scrollY - 100);
-});
+// window.addEventListener("hashchange", function () {
+//     window.scrollTo(window.scrollX, window.scrollY - 100);
+// });

@@ -2,6 +2,10 @@ body {
     padding-top: 70px;
 }
 
+/*body.modal-open {*/
+    /*overflow: visible !important;*/
+/*}*/
+
 .slide-item {
     position: relative;
     background-repeat: no-repeat;
@@ -27,6 +31,10 @@ body {
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
+}
+
+.navbar > a {
+    color: #333333;
 }
 
 /*.owl-carousel .item-video {*/
