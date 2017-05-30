@@ -37,6 +37,107 @@ body {
     color: #333333;
 }
 
+@media only screen
+and (min-device-width: 0)
+and (max-device-width: 480px) {
+    .jumbo-bg > .col-sm-6 h1, h2 {
+        font-size: 1.4em;
+        width: 160px;
+    }
+    .btn-responsive {
+        padding: 10px 25px;
+        font-size:90%;
+        line-height: 1.2;
+    }
+}
+@media only screen
+and (min-device-width: 481px)
+and (max-device-width: 619px) {
+    .jumbo-bg > .col-sm-6 h1, h2, p {
+        font-size: 1em;
+        width: 160px;
+        /*padding-right: 120px;*/
+        text-align: right;
+        float: right;
+        clear: right;
+    }
+    .jumbo-bg {
+        padding: 0;
+        height: 500px;
+        background-image: url('../img/AK-FrontLeft2.jpg');
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: cover;
+    }
+    .btn-responsive {
+    padding:8px 18px;
+    font-size:90%;
+    line-height: 1.2;
+    }
+}
+
+@media only screen
+and (min-device-width: 620px)
+and (max-device-width: 767px) {
+    .jumbo-bg > .col-sm-6 h1, h2, p {
+        font-size: 1.6em;
+        width: 200px;
+        text-align: left;
+        float: right;
+        clear: right;
+    }
+    .jumbo-bg {
+        padding: 0;
+        height: 500px;
+        background-image: url('../img/AK-FrontLeft2.jpg');
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: cover;
+    }
+    .btn-responsive {
+    padding:8px 18px;
+    font-size:90%;
+    line-height: 1.2;
+    }
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 991px) {
+    .jumbo-bg > .col-sm-6 h1, h2, p {
+        font-size: 1.6em;
+        width: 200px;
+        text-align: left;
+        float: right;
+        clear: right;
+    }
+    /*.btn-responsive {*/
+    /*padding:4px 9px;*/
+    /*font-size:90%;*/
+    /*line-height: 1.2;*/
+    /*}*/
+}
+
+@media only screen
+and (min-device-width: 992px)
+and (max-device-width: 1024px) {
+    .jumbo-bg > .col-sm-6 h1, h2, p {
+        /*font-size: 1.4em;*/
+        /*width: 480px;*/
+        text-align: left;
+        padding-left: 50px;
+        /*float: right;*/
+        /*clear: right;*/
+    }
+}
+
+@media only screen
+and (min-device-width: 1025px) {
+    .jumbo-bg > .col-sm-6 h1, h2, p {
+        padding-left: 50px;
+    }
+}
+
 /*.owl-carousel .item-video {*/
     /*height: 250px;*/
 /*}*/
